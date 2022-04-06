@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_home_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ourServicesBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "aboutUsBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    }
+  }
+}

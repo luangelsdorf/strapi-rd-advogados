@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_link_images",
+  "info": {
+    "displayName": "LinkImage",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

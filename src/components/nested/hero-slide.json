@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_nested_hero_slides",
+  "info": {
+    "displayName": "HeroSlide",
+    "icon": "sliders-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "filledButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    },
+    "outlinedButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-button",
+      "required": true
+    }
+  }
+}

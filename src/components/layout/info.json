@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_infos",
+  "info": {
+    "displayName": "Info",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

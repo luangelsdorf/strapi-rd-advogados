@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "hand-point-down"
+  },
+  "options": {},
+  "attributes": {
+    "copyright": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

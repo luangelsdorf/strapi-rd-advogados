@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_areas_pension_laws",
+  "info": {
+    "displayName": "PensionLaw",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pensionLawServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.service",
+      "required": true
+    }
+  }
+}

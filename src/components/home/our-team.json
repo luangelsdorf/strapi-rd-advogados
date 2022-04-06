@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_our_teams",
+  "info": {
+    "displayName": "OurTeam",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.member-card",
+      "max": 2,
+      "min": 2,
+      "required": true
+    }
+  }
+}

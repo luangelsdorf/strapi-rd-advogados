@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_home_aboutuses",
+  "info": {
+    "displayName": "AboutUs",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "leftImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rightImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "bottomImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

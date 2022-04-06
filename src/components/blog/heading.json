@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_headings",
+  "info": {
+    "displayName": "Heading",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    }
+  }
+}

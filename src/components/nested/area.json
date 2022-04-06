@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nested_areas",
+  "info": {
+    "displayName": "Area",
+    "icon": "chart-area",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_areas_call_to_actions",
+  "info": {
+    "displayName": "callToAction",
+    "icon": "external-link-square-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ctaText": {
+      "type": "string",
+      "required": true
+    },
+    "secondText": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

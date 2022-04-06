@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_title_boxes",
+  "info": {
+    "displayName": "TitleBox",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

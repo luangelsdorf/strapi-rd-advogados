@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_occupation_areas",
+  "info": {
+    "displayName": "OccupationAreas",
+    "icon": "hospital",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_nested_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

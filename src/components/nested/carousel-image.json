@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_nested_carousel_images",
+  "info": {
+    "displayName": "CarouselImage",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

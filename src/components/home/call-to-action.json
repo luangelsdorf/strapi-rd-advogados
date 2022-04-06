@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_call_to_actions",
+  "info": {
+    "displayName": "CallToAction",
+    "icon": "hand-paper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "longText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

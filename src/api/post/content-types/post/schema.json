@@ -20,6 +20,12 @@
       "type": "richtext",
       "required": true
     },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "posts"
+    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -28,11 +34,10 @@
         "images"
       ]
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "posts"
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }

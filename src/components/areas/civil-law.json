@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_areas_civil_laws",
+  "info": {
+    "displayName": "CivilLaw",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "civilLawServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.service",
+      "required": true
+    }
+  }
+}

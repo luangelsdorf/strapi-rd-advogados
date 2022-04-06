@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_nested_member_cards",
+  "info": {
+    "displayName": "MemberCard",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bio": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

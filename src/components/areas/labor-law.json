@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_areas_labor_laws",
+  "info": {
+    "displayName": "LaborLaw",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "laborLawServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.service",
+      "required": true
+    }
+  }
+}

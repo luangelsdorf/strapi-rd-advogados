@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.carousel-image",
+      "min": 4
+    }
+  }
+}

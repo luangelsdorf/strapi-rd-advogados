@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_social_medias",
+  "info": {
+    "displayName": "SocialMedia",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "string",
+      "required": true
+    },
+    "instagram": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

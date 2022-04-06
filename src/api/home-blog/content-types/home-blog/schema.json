@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_blogs",
+  "info": {
+    "singularName": "home-blog",
+    "pluralName": "home-blogs",
+    "displayName": "Home - Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog.hero",
+      "required": true
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog.heading",
+      "required": true
+    }
+  }
+}

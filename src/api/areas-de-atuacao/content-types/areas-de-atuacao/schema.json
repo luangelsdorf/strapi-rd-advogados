@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "areas_de_atuacaos",
+  "info": {
+    "singularName": "areas-de-atuacao",
+    "pluralName": "areas-de-atuacaos",
+    "displayName": "Áreas de Atuação",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blog.hero",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "areas.call-to-action",
+      "required": true
+    },
+    "laborLaw": {
+      "type": "component",
+      "repeatable": false,
+      "component": "areas.labor-law",
+      "required": true
+    },
+    "civilLaw": {
+      "type": "component",
+      "repeatable": false,
+      "component": "areas.civil-law",
+      "required": true
+    },
+    "pensionLaw": {
+      "type": "component",
+      "repeatable": false,
+      "component": "areas.pension-law",
+      "required": true
+    }
+  }
+}

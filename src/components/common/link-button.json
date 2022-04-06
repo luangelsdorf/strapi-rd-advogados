@@ -1,0 +1,30 @@
+ {
+  "collectionName": "components_common_link_buttons",
+  "info": {
+    "displayName": "LinkButton",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "section": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "/blog",
+        "/#home",
+        "/#sobre-nos",
+        "/#galeria",
+        "/#nossa-equipe",
+        "/#areas-de-atuacao",
+        "/#chamada",
+        "/#recentes",
+        "/#banner-inferior"
+      ]
+    }
+  }
+}
