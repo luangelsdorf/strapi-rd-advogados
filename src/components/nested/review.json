@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_nested_reviews",
+  "info": {
+    "displayName": "Review",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "stars": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "max": 5
+    }
+  }
+}

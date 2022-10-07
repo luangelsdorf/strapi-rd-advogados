@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_pages_common_cases",
+  "info": {
+    "displayName": "CommonCases",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "case": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "nested.list-item"
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

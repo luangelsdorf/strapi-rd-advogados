@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_landing_pages_about_lawyers",
+  "info": {
+    "displayName": "AboutLawyer",
+    "icon": "sticky-note",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "introText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

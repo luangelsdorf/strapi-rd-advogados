@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_pages_call_to_actions",
+  "info": {
+    "displayName": "CallToAction",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainText": {
+      "type": "text",
+      "required": true
+    },
+    "auxText": {
+      "type": "text",
+      "required": true
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

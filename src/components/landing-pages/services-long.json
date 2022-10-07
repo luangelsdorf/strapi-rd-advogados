@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_pages_services_longs",
+  "info": {
+    "displayName": "ServicesLong",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "serviceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.service-long",
+      "required": true
+    }
+  }
+}

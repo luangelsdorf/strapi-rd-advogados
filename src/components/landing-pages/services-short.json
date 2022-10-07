@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_pages_services_shorts",
+  "info": {
+    "displayName": "ServicesShort",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "serviceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.service-short",
+      "required": true
+    }
+  }
+}

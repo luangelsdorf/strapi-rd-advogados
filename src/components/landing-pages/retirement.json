@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_landing_pages_retirements",
+  "info": {
+    "displayName": "Retirement",
+    "icon": "hand-holding-usd"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "listText": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.list-item",
+      "required": true
+    }
+  }
+}

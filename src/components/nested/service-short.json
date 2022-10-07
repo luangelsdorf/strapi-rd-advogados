@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_nested_service_shorts",
+  "info": {
+    "displayName": "ServiceShort",
+    "icon": "biohazard"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

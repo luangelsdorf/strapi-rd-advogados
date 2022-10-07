@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_pages_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "icon": "star-half-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-box",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.review",
+      "required": true,
+      "min": 2
+    }
+  }
+}

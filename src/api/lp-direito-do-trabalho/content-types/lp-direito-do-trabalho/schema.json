@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "lp_direito_do_trabalhos",
+  "info": {
+    "singularName": "lp-direito-do-trabalho",
+    "pluralName": "lp-direito-do-trabalhos",
+    "displayName": "LP Direito do Trabalho"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.hero",
+      "required": true
+    },
+    "commonCases": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.common-cases",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.services-long",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.call-to-action",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.about-lawyer",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.testimonials",
+      "required": true
+    }
+  }
+}

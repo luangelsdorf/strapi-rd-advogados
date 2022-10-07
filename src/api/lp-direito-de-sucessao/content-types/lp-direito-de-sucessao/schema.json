@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "lp_direito_de_sucessaos",
+  "info": {
+    "singularName": "lp-direito-de-sucessao",
+    "pluralName": "lp-direito-de-sucessaos",
+    "displayName": "LP - Direito de Sucessão",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.hero",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.services-long",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.call-to-action",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.about-us",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.testimonials",
+      "required": true
+    }
+  }
+}

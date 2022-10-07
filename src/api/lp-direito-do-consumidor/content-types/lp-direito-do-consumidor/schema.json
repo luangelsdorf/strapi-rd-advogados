@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "lp_direito_do_consumidors",
+  "info": {
+    "singularName": "lp-direito-do-consumidor",
+    "pluralName": "lp-direito-do-consumidors",
+    "displayName": "LP - Direito do Consumidor"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.hero",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.services-short",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.call-to-action",
+      "required": true
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.about-lawyer",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.testimonials",
+      "required": true
+    }
+  }
+}

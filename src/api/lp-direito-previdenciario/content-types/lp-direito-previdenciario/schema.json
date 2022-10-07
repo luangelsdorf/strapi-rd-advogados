@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "lp_direito_previdenciarios",
+  "info": {
+    "singularName": "lp-direito-previdenciario",
+    "pluralName": "lp-direito-previdenciarios",
+    "displayName": "LP - Direito Previdenciário"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.hero"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.services-long",
+      "required": true
+    },
+    "retirement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.retirement",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.call-to-action"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.about-us",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-pages.testimonials",
+      "required": true
+    }
+  }
+}

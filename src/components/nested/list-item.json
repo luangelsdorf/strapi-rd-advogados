@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nested_list_items",
+  "info": {
+    "displayName": "ListItem",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
